@@ -10,19 +10,19 @@ body {
   background-color: #d9dcd6;
 }
 
-header {
+.header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
 }
 
-header h1 {
+.header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-header h1 .seo {
+.header h1 .seo {
   color: #d9dcd6;
 }
 
@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-main {
+.hero {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -78,7 +78,7 @@ footer {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-/* This is the only font that's black so I added the color here to override the previous white style. should I leave it alone? */
+
 footer h2 {
   font-size: 20px;
   color: black;
@@ -103,7 +103,7 @@ footer p {
   display: inline-block;
   margin-left: 20px;
 }
-
+/* I consolidated the repeating styles for the sections under one class name */
 .benefits {
   margin-bottom: 32px;
 }
@@ -119,6 +119,7 @@ footer p {
   max-width: 150px;
 }
 
+/* I consolidated the repeating styles for the content sections under one class name */
 .body-info {
   margin-bottom: 20px;
   padding: 50px;
