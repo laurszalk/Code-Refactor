@@ -26,4 +26,4 @@ Please refer to the LICENSE in the repo.
 
 Git Pages: https://laurszalk.github.io/challenge1/
 
-![Screenshot](./assets/images/2022-11-26.png)
+![Screenshot of Horiseon webpage](./assets/images/screenshot.png)
